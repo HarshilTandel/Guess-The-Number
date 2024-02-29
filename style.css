@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    font-family: Arcade Classic;
+}
+
+.upper {
+    color: rgb(255, 240, 250);
+}
+
+.button {
+    width: 60px;
+}
+
+.num-bet {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.sec-num {
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+
+.sec-num input {
+    width: 150px;
+    height: 70px;
+    font-size: xxx-large;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    
+}
+
+.but-num-op button {
+    width: 120px;
+    height: 50px; 
+    font-size: large; 
+}
+
+.but-num-op input{
+    width: 150px;
+    height: 70px; 
+    font-size: xxx-large;
+    color: black; 
+}
+ .text {
+    color: aliceblue;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+   
+}
+
+
